@@ -11,76 +11,95 @@
             width: 300px;
         }
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <h1 class="header__title">Noticias</h1>
+        <nav>
+            <ul class="main-menu">
+                <li class="main-menu__item"><a href="#tech" class="main-menu__link">Tecnologia</a></li>
+                <li class="main-menu__item"><a href="#economia" class="main-menu__link">Economia</a></li>
+                <li class="main-menu__item"><a href="#mexico" class="main-menu__link">Mexico</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="news">
-        <section class="news__tech">
-            <h2 class="news__title">Ultimas Noticias de Tecnologia</h2>
-            <article>
-                <img loading="lazy" src="assets/img/tech1.webp" alt="imagen de relleno">
-                <time datetime="2021-08-07">07/08/2021</time>
-            </article>
-            <article>
-                <img loading="lazy" src="assets/img/tech2.webp" alt="imagen de relleno">
-                <time datetime="2021-08-07">07/08/2021</time>
-            </article>
-            <article>
-                <img loading="lazy" src="assets/img/tech3.webp" alt="imagen de relleno">
-                <time datetime="2021-08-07">07/08/2021</time>
-            </article>
+        <section class="news-container" id="tech">
+            <h2 class="news__title"><a href="#header">Ultimas Noticias de Tecnologia</a></h2>
+            <div class="grid">
+                <article>
+                    <div class="container-img"> <img loading="lazy" src="assets/img/tech1.webp" alt="imagen de relleno">
+                    </div><time class="news__time" datetime="2021-08-07">07/08/2021</time>
+                    <p class="news__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, veniam.</p>
+                </article>
+                <article>
+                    <div class="container-img"> <img loading="lazy" src="assets/img/tech2.webp" alt="imagen de relleno">
+                    </div><time class="news__time" datetime="2021-08-07">07/08/2021</time>
+                    <p class="news__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, veniam.</p>
+                </article>
+                <article>
+                    <div class="container-img"> <img loading="lazy" src="assets/img/tech3.webp" alt="imagen de relleno">
+                    </div><time class="news__time" datetime="2021-08-07">07/08/2021</time>
+                    <p class="news__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, veniam.</p>
+                </article>
+            </div>
         </section>
-        <section class="news__mexico">
-            <h2 class="news__title">Ultimas Noticias de Mexico</h2>
-            <article>
-                <img loading="lazy" src="assets/img/mexico1.webp" alt="imagen de relleno">
-                <time datetime="2021-08-07">07/08/2021</time>
-            </article>
-            <article>
-                <img loading="lazy" src="assets/img/mexico2.webp" alt="imagen de relleno">
-                <time datetime="2021-08-07">07/08/2021</time>
-            </article>
-            <article>
-                <img loading="lazy" src="assets/img/mexico3.webp" alt="imagen de relleno">
-                <time datetime="2021-08-07">07/08/2021</time>
-            </article>
+        <section class="news-container" id="mexico">
+            <h2 class="news__title"><a href="#header">Ultimas Noticias de Mexico</a></h2>
+            <div class="grid">
+                <article>
+                    <div class="container-img"> <img loading="lazy" src="assets/img/mexico1.webp" alt="imagen de relleno">
+                    </div><time class="news__time" datetime="2021-08-07">07/08/2021</time>
+                    <p class="news__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, veniam.</p>
+                </article>
+                <article>
+                    <div class="container-img"> <img loading="lazy" src="assets/img/mexico2.webp" alt="imagen de relleno">
+                    </div><time class="news__time" datetime="2021-08-07">07/08/2021</time>
+                    <p class="news__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, veniam.</p>
+                </article>
+                <article>
+                    <div class="container-img"> <img loading="lazy" src="assets/img/mexico3.webp" alt="imagen de relleno">
+                    </div><time class="news__time" datetime="2021-08-07">07/08/2021</time>
+                    <p class="news__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, veniam.</p>
+                </article>
+            </div>
         </section>
-        <section class="news__economia">
-            <h2 class="news__title">Ultimas Noticias Sobre La Economia</h2>
-            <article>
-                <img loading="lazy" src="assets/img/economia1.webp" alt="imagen de relleno">
-                <time datetime="2021-08-07">07/08/2021</time>
-            </article>
-            <article>
-                <img loading="lazy" src="assets/img/economia2.webp" alt="imagen de relleno">
-                <time datetime="2021-08-07">07/08/2021</time>
-            </article>
-            <article>
-                <img loading="lazy" src="assets/img/economia3.webp" alt="imagen de relleno">
-                <time datetime="2021-08-07">07/08/2021</time>
-            </article>
+        <section class=" news-container" id="economia">
+            <h2 class="news__title"><a href="#header">Ultimas Noticias Sobre La Economia</a></h2>
+            <div class="grid">
+                <article>
+                    <div class="container-img"> <img loading="lazy" src="assets/img/economia1.webp" alt="imagen de relleno">
+                    </div><time class="news__time" datetime="2021-08-07">07/08/2021</time>
+                    <p class="news__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, veniam.</p>
+                </article>
+                <article>
+                    <div class="container-img"> <img loading="lazy" src="assets/img/economia2.webp" alt="imagen de relleno">
+                    </div><time class="news__time" datetime="2021-08-07">07/08/2021</time>
+                    <p class="news__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, veniam.</p>
+                </article>
+                <article>
+                    <div class="container-img"> <img loading="lazy" src="assets/img/economia3.webp" alt="imagen de relleno">
+                    </div><time class="news__time" datetime="2021-08-07">07/08/2021</time>
+                    <p class="news__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, veniam.</p>
+                </article>
+            </div>
         </section>
-        <footer>
-            <p>Layout hecho con <i class="fas fa-heart" style="color: red;"></i></p>
-            <ul>
-                <li>
-                    <a href="#"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
-                </li>
-            </ul>
-        </footer>
     </main>
+    <footer class="footer">
+        <p class="footer__text">Layout hecho con <i class="fas fa-heart"></i></p>
+        <ul class="social-menu">
+            <li class="media-social__item"><a class="media-social__link" href="#"><i class="fab fa-tiktok"
+                        aria-hidden="true"></i></a></li>
+            <li class="media-social__item"><a class="media-social__link" href="#"><i class="fab fa-twitter"
+                        aria-hidden="true"></i></a></li>
+            <li class="media-social__item"><a class="media-social__link" href="#"><i class="fab fa-instagram"
+                        aria-hidden="true"></i></a></li>
+            <li class="media-social__item"><a class="media-social__link" href="#"><i class="fab fa-github"
+                        aria-hidden="true"></i></a></li>
+        </ul>
+    </footer>
     <script src="https://kit.fontawesome.com/f2b9834247.js" crossorigin="anonymous"></script>
 </body>
 

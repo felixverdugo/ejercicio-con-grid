@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Montserrat:wght@600&display=swap);
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #5a5a5a;
+  color: #d6d6d6;
+  overflow-x: hidden;
+  font-family: Lexend, sans-serif;
+}
+a {
+  color: #d6d6d6;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #8f8f8f;
+  height: 200px;
+  width: 100vw;
+  box-shadow: 1px 5px 41px 5px #838383f6;
+  color: #fff;
+}
+.header h1 {
+  margin: 0;
+}
+.main-menu {
+  list-style: none;
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.main-menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background: #747474;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: 0.3s all;
+  border-radius: 7px;
+}
+.main-menu__link {
+  text-decoration: none;
+  color: #d6d6d6;
+}
+.main-menu__item:hover {
+  background-color: #969696;
+  border: none;
+}
+.header,
+.news__title {
+  font-family: Montserrat, sans-serif;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  width: 100%;
+}
+.news-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  width: 100%;
+}
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 350px));
+  grid-auto-columns: 300px;
+  grid-template-areas: "new1 new2 new3";
+  grid-column-gap: 70px;
+  width: 100vw;
+}
+.news__time {
+  display: inline-block;
+  letter-spacing: 10px;
+  margin-top: 20px;
+  color: #979797;
+}
+.news__desc {
+  letter-spacing: 1px;
+}
+.container-img {
+  display: flex;
+  height: 260px;
+}
+.container-img img {
+  object-fit: cover;
+}
+.footer {
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #838383;
+  margin-top: 20px;
+}
+.footer__text {
+  padding-top: 20px;
+  margin: 0;
+}
+.social-menu {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  list-style: none;
+}
+.fab {
+  font-size: 30px;
+  margin-top: 7px;
+}
+.fa-heart {
+  color: rgb(224, 140, 140);
+  transition: 0.1s all;
+}
+.fa-heart:hover {
+  color: rgb(255, 189, 189);
+}
+@media screen and (max-width: 400px) {
+}
