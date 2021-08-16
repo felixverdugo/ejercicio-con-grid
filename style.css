@@ -95,9 +95,52 @@ a {
 .container-img {
   display: flex;
   height: 260px;
+  width: 327px;
 }
-.container-img img {
-  object-fit: cover;
+.tech1{
+  background-image: url('./assets/img/tech1.webp');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.tech2{
+  background-image: url('./assets/img/tech2.webp');
+  background-size: 120% 100%;
+  background-repeat: no-repeat;
+}
+.tech3{
+  background-image: url('./assets/img/tech3.webp');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.mexico1{
+  background-image: url('./assets/img/mexico1.webp');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.mexico2{
+  background-image: url('./assets/img/mexico2.webp');
+  background-size: 120% 100%;
+  background-repeat: no-repeat;
+}
+.mexico3{
+  background-image: url('./assets/img/mexico3.webp');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.economia1{
+  background-image: url('./assets/img/economia1.webp');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.economia2{
+  background-image: url('./assets/img/economia2.webp');
+  background-size: 120% 100%;
+  background-repeat: no-repeat;
+}
+.economia3{
+  background-image: url('./assets/img/economia3.webp');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .footer {
   display: flex;
